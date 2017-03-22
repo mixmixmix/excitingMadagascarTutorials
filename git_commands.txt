@@ -1,0 +1,195 @@
+    1  exit
+    2  docker --verision
+    3  docker --version
+    4  docker-compose --version
+    5  docker ps
+    6  docker run hello-world
+    7  docker run -it ubuntu bash
+    8  exit
+    9  sl
+   10  ls
+   11  exit
+   12  ls
+   13  mkdir tmp
+   14  ls
+   15  cd tmp/
+   16  ls
+   17  ls -a
+   18  trtee
+   19  tree
+   20  cd ~
+   21  ls ~/..
+   22  clear
+   23  ls
+   24  cat ntuser.dat.LOG
+   25  cat ntuser.dat.LOG1
+   26  cd tmp/
+   27  vi aa.txt
+   28  nano aa.txt
+   29  cat aa.txt 
+   30  head aa.txt
+   31  grep ple .
+   32  grep . ple
+   33  grep ple ./*
+   34  grep aa.txt
+   35  ls ~ > list.txt
+   36  cat list.txt 
+   37  who
+   38  ls
+   39  g
+   40  ls
+   41  docker ps -a
+   42  docker rm $(docker ps -aq)
+   43  docer rmi $(docker images -aq)
+   44  docker rmi $(docker images -aq)
+   45  docker ps -a
+   46  LS
+   47  ls
+   48  cd ../
+   49  ls
+   50  cd Documents/
+   51  docker run hello-world
+   52  docker load -i ready_whalesay.tar 
+   53  dockker run docker/whalesay
+   54  docker run docker/whalesay
+   55  docker run docker/whalesay cowsay aa
+   56  docker load -i ready_whalesay_2.tar 
+   57  docker run whalesay_prepared
+   58  docker ps -a
+   59  docker 
+   60  exit
+   61  ls
+   62  ls
+   63  docker ps- 
+   64  docker ps -a
+   65  docker images -q
+   66  docker images -aq
+   67  docker rmi $(docker images -aq)
+   68  docker ps -aq
+   69  docker rm $(docker ps -aq)
+   70  docker rm $(docker ps -aq)
+   71  docker rmi $(docker images -aq)
+   72  exit
+   73  ls
+   74  ls
+   75  mkdir TEST_DIRECTORY
+   76  ls
+   77  ls
+   78  mkdir tutorial_of_linux
+   79  ls
+   80  cd tutorial_of_linux/
+   81  ls
+   82  ls
+   83  pwd
+   84  cd .
+   85  pwd
+   86  cd ..
+   87  pwd
+   88  cd tutorial_of_linux/
+   89  ls
+   90  mkdir a b c d e f 
+   91  ls
+   92  ls -l
+   93  touch file_1
+   94  ls
+   95  ls -l
+   96  touch file_2
+   97  touch file_3
+   98  ls
+   99  mkdir my_directory
+  100  touch my_file
+  101  ls
+  102  ls -la
+  103  ls -lah
+  104  touch text_file.txt
+  105  ls
+  106  cat text_file.txt 
+  107  cat text_file.txt 
+  108  wc -l text_file.txt 
+  109  ls -l
+  110  ls -la
+  111  ls -a
+  112  l
+  113  ls
+  114  ls > list_of_files.txt
+  115  cat list_of_files.txt 
+  116  wc -l list_of_files.txt 
+  117  ls | wc -l
+  118  ls /c/Program\ Files | wc -l 
+  119  ls
+  120  top
+  121  ps
+  122  ps -ef
+  123  ps
+  124  ps | wc -l
+  125  ps -ef
+  126  ls
+  127  ls file*
+  128  rm file*
+  129  ls
+  130  cat text_file.txt 
+  131  cat list_of_files.txt 
+  132  cat list_of_files.txt >> text_file.txt 
+  133  cat text_file.txt 
+  134  head text_file.txt 
+  135  tail text_file.txt 
+  136  ls
+  137  cp my_file my_copied_file
+  138  ls
+  139  vim my_copied_file 
+  140  git
+  141  ls
+  142  ls
+  143  ls
+  144  ls
+  145  ls
+  146  cd a
+  147  git inti
+  148  ls
+  149  git init
+  150  vim test.txt
+  151  git add .
+  152  git commit -m "Commit 1"
+  153  vim test.txt 
+  154  git status
+  155  git add .
+  156  git commit -m "a mistake"
+  157  git log
+  158  git checkout a9564e960b89b98e2628d09e073d272e00020934
+  159  git checkout HEAD
+  160  git checkout master
+  161  git revert b1d9b1271d7754532310bb4e8f26453731b07f3a
+  162  git status
+  163  cat test.txt 
+  164  cd ..
+  165  ls
+  166  mkdir MyNewExcitingProject
+  167  cd MyNewExcitingProject/
+  168  pwd 
+  169  git init
+  170  ls
+  171  ls -a
+  172  git status
+  173  git add .
+  174  git status
+  175  git commit -m "First commit of my files"
+  176  git config --global user.email "kundegorskim@who.int"
+  177  git config --global user.name "Mix"
+  178  git log
+  179  git status
+  180  git diff
+  181  git add .
+  182  git status
+  183  git commit -m "Some new lines in first file"
+  184  git log 
+  185  git status
+  186  git add .
+  187  git status
+  188  git commit -m "My little secret...."
+  189  git status
+  190  git log
+  191  git status
+  192  git checkout -- .
+  193  git log
+  194  history
+  195  history > git_commands.txt
