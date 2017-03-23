@@ -1,0 +1,15 @@
+   83  cd ~/tutorial_of_linux/MyNewExcitingProject/
+   84  git status
+   85  git log
+   86  git log
+   87  git remote add origin https://github.com/mixmixmix/excitingMadagascarTutorials.git
+   88  git push
+   89  git push --set-upstream origin master
+   90  history
+   91  history | tail
+   92  history | less
+   93  history | tail
+   94  history | head
+   95  history
+   96  history | tail -15
+   97  history | tail -15 > git_pushing_commands.txt
